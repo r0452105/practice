@@ -1,0 +1,155 @@
+﻿@model IEnumerable<CyclingAPILib.Cyclist>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstimateWeight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Height)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nationality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ACC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.END)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RES)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.REC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HIL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ATT)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstimateWeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nationality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ACC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.END)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RES)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.REC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HIL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ATT)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

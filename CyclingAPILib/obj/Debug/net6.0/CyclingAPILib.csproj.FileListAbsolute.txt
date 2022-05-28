@@ -1,0 +1,12 @@
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\bin\Debug\net6.0\CyclingAPILib.deps.json
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\bin\Debug\net6.0\CyclingAPILib.dll
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\bin\Debug\net6.0\CyclingAPILib.pdb
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\CyclingAPILib.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\CyclingAPILib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\CyclingAPILib.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\CyclingAPILib.AssemblyInfo.cs
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\CyclingAPILib.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\CyclingAPILib.dll
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\refint\CyclingAPILib.dll
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\CyclingAPILib.pdb
+C:\Users\Gebruiker\Documents\GitHub\practice\CyclingAPILib\obj\Debug\net6.0\ref\CyclingAPILib.dll
